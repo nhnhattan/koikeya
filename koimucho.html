@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>KOIMUCHO | Koikeya</title>
+    <meta name="author" content="KoiMUCHO" />
+    <meta
+      name="description"
+      content="KoiMUCHO là thương hiệu snack không cay của công ty Koikeya – một trong những công ty sản xuất bánh snack hàng đầu Nhật Bản với nhiều thương hiệu nổi tiếng và chất lượng. Chú mèo máy Doraemon chính là đại sứ thương hiệu của KoiMUCHO"
+    />
+    <meta
+      name="keywords`"
+      content="koike-ya, koikeya, KoiMUCHO, koimucho vi bo mat ong, koimucho vi sua bap, koimucho vi thit nuong, koimucho vi bo toi"
+    />
+    <meta property="og:image" content="./assets/Koimucho/unitedweb.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/main-img/logo-web.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./koimucho.css" />
+    <link rel="stylesheet" href="./responsive-koimucho.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="koimucho.js"></script>
+  </head>
+
+  <body>
+    <div>
+      <div class="nav">
+        <div class="nav-wrapper">
+          <div class="nav-inner">
+            <div class="nav-logo">
+              <img src="./assets/Koimucho/logo.df224344.webp" alt="" />
+            </div>
+            <div class="nav-btn" id="nav-btn">
+              <div class="btn-inner">
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" navbar-content">
+          <div class="btn-navbar-content">
+            <img src="./assets/main-img/close.png" alt="" id="close-img" />
+          </div>
+          <div class="navbar-content_wrap">
+            <div class="nav-content_list">
+              <div class="nav-content_item">
+                <a href="index.html">Trang chủ</a>
+              </div>
+              <div class="nav-content_item ">
+                <a href="./corporate.html">Website Công Ty</a>
+              </div>
+              <div class="nav-content_item">
+                <a href="./karamucho.html">KARAMUCHO</a>
+              </div>
+              <div class="nav-content_item">
+                <a href="./koimucho.html" class="active">KoiMUCHO</a>
+              </div>
+              <div class="nav-content_item">
+                <a href="./gokochi.html">Gokochi</a>
+              </div>
+              <div class="nav-content_logo">
+                <a href="./karamucho.html" class="nav-content__logo__karamocho"
+                  ><img
+                    src="./assets/main-img/menu-logo-karamucho.c466da1b.png"
+                    alt=""
+                    width="280px"
+                    height="250px"
+                /></a>
+                <a href="./gokochi.html" class="nav-content__logo__koimocho"
+                  ><img src="./assets/gokochi/Logo Gokochi.jpg" alt=""
+                /></a>
+                <a href="./koimucho.html" class="nav-content__logo__koimocho"
+                  ><img
+                    src="./assets/Koimucho/menu-logo-koimucho.8d4b4646.webp"
+                    alt=""
+                /></a>
+              </div>
+              <div class="nav-content_social">
+                <a href="https://www.facebook.com/Karamucho.Vn/"
+                  ><img src="./assets/Koimucho/download (5).png" alt=""
+                /></a>
+                <a href="https://www.tiktok.com/@koikeya_snack"
+                  ><img
+                    src="./assets/main-img/tiktok.png"
+                    alt=""
+                /></a>
+                <a
+                  href="https://www.youtube.com/channel/UCUNnWTLL2CyNMmF2dpbd9xg"
+                  ><img src="./assets/Koimucho/download (6).png" alt=""
+                /></a>
+                <a href="javascript:void(0);" id="language">EN</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-top">
+        <div class="section-top_bg" id="imageContainer">
+          <div class="section-top__bg__paralax">
+            <img
+              src="./assets/Koimucho/bg-top-paralax.cfd4440f.webp"
+              alt=""
+              id="imgparalax"
+            />
+          </div>
+          <div class="section-top_bg_logo">
+            <img src="./assets/Koimucho/bg-top-logo.5e693873.png" alt="" />
+          </div>
+          <div class="section-top_bg_product">
+            <img
+              alt="karamucho snack"
+              class="pc-appear ls-is-cached lazyloaded"
+              src="./assets/main-img/koimucho-top.png"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="section-main" id="imageContainerBody">
+        <!-- <div class="section-paralax" >
+          <img alt="" src="https://koike-ya.vn/img/paralax.0acdf1dc.webp" id="imageBody"/>
+        </div> -->
+        <div class="section-intro">
+          <div class="wrap">
+            <div class="section-intro-inner">
+              <div class="what">
+                <div class="row d-flex wrap">
+                  <div class="col-md-4 col-sm-12 col-xs-12  left">
+                    <div class="title">
+                      <img src="./assets/Koimucho/what.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12 col-xs-12 right">
+                    Koimucho là dòng snack bắp giòn tan, mang hương vị tự nhiên,
+                    hấp dẫn, phù hợp cho các bạn nhỏ. Với hình ảnh thương hiệu
+                    dễ thương, sắc màu vui nhộn, Koimucho không chỉ thu hút từ
+                    ánh nhìn đầu tiên mà còn khiến các bé mê mẩn ngay từ lần đầu
+                    thưởng thức. Vị bắp thơm ngon khó cưỡng, giòn tan trong từng
+                    miếng snack, mang lại sự vui vẻ và thích thú trong mỗi bữa
+                    ăn vặt.
+                  </div>
+                </div>
+              </div>
+              <div class="character">
+                <div class="row">
+                  <div class="col-md-4 col-sm-12 col-xs-12 left">
+                    <div class="character-avt">
+                      <img
+                        src="./assets/Koimucho/avt-tomi.3a47bcde.webp"
+                        alt=""
+                      />
+                      <img
+                        src="./assets/Karamucho/txt-brand-vi.e224140d.webp"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-8 col-sm-12 col-xs-12 right">
+                    <div class="content">
+                      <img
+                        src="./assets/Koimucho/character-content.png"
+                        alt=""
+                      />
+                      <p>
+                        Doraemon chính là đại sứ thương hiệu của KoiMUCHO, chú
+                        mèo máy thông minh đáng yêu này sẽ là người bạn đồng
+                        hành với tất cả các bạn nhỏ khi mua snack KoiMUCHO. Sản
+                        phẩm đầu tiên “Snack bắp KoiMUCHO vị sữa bắp” được tung
+                        ra thị trường lần đầu vào tháng 11, 2018. Sản phẩm với
+                        sự kết hợp hoàn hảo giữa hương thơm tự nhiên và vị ngọt
+                        thanh từ bắp đã và đang chiếm trọn tình cảm chân thành
+                        của những fan snack nhí ở Việt Nam.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gallery">
+                <div class="row">
+                  <div class="col-xl-3 left">
+                    <img
+                      src="./assets/Koimucho/gallery.png"
+                      alt=""
+                      width="70%"
+                    />
+                    <div>Xem thêm câu đố bằng mũi tên qua lại</div>
+                  </div>
+                  <div class="col-xl-8 right">
+                    <div class="scroll-container">
+                      <div class="scroll-content" id="scroll-content">
+                        <img
+                          class="scroll-item"
+                          id="scroll-item1"
+                          src="./assets/Koimucho/gallery/1.png"
+                        />
+                        <img
+                          class="scroll-item"
+                          id="scroll-item2"
+                          src="./assets/Koimucho/gallery/2.png"
+                        />
+                        <img
+                          class="scroll-item"
+                          id="scroll-item3"
+                          src="./assets/Koimucho/gallery/3.png"
+                        />
+                        <img
+                          class="scroll-item"
+                          id="scroll-item4"
+                          src="./assets/Koimucho/gallery/4.png"
+                        />
+                        <img
+                          class="scroll-item"
+                          id="scroll-item5"
+                          src="./assets/Koimucho/gallery/5.png"
+                        />
+                        <img
+                          class="scroll-item"
+                          id="scroll-item6"
+                          src="./assets/Koimucho/gallery/6.png"
+                        />
+                        <img
+                          class="scroll-item"
+                          id="scroll-item7"
+                          src="./assets/Koimucho/gallery/7.png"
+                        />
+                        <img
+                          class="scroll-item"
+                          id="scroll-item8"
+                          src="./assets/Koimucho/gallery/8.png"
+                        />
+                        <img
+                          class="scroll-item"
+                          id="scroll-item9"
+                          src="./assets/Koimucho/gallery/9.png"
+                        />
+                        <img
+                          class="scroll-item"
+                          id="scroll-item10"
+                          src="./assets/Koimucho/gallery/10.png"
+                        />
+                        <img
+                          class="scroll-item"
+                          id="scroll-item11"
+                          src="./assets/Koimucho/gallery/11.png"
+                        />
+                        <img
+                          class="scroll-item"
+                          id="scroll-item12"
+                          src="./assets/Koimucho/gallery/12.png"
+                        />
+                        <img
+                          class="scroll-item"
+                          id="scroll-item13"
+                          src="./assets/Koimucho/gallery/13.png"
+                        />
+                        <img
+                          class="scroll-item"
+                          id="scroll-item14"
+                          src="./assets/Koimucho/gallery/14.png"
+                        />
+                        <img
+                          class="scroll-item"
+                          id="scroll-item15"
+                          src="./assets/Koimucho/gallery/15.png"
+                        />
+                        <img
+                          class="scroll-item"
+                          id="scroll-item16"
+                          src="./assets/Koimucho/gallery/16.png"
+                        />
+                        <img
+                          class="scroll-item"
+                          id="scroll-item17"
+                          src="./assets/Koimucho/gallery/17.png"
+                        />
+                        <img
+                          class="scroll-item"
+                          id="scroll-item18"
+                          src="./assets/Koimucho/gallery/18.png"
+                        />
+                        <img
+                          class="scroll-item"
+                          id="scroll-item19"
+                          src="./assets/Koimucho/gallery/19.png"
+                        />
+                        <img
+                          class="scroll-item"
+                          id="scroll-item20"
+                          src="./assets/Koimucho/gallery/20.png "
+                        />
+                        <img
+                          class="scroll-item"
+                          id="scroll-item21"
+                          src="./assets/Koimucho/gallery/21.png"
+                        />
+                        <img
+                          class="scroll-item"
+                          id="scroll-item22"
+                          src="./assets/Koimucho/gallery/22.png"
+                        />
+                      </div>
+                    </div>
+                    <div class="scroll-btn-wrap">
+                      <button
+                        class="scroll-btn left disable"
+                        id="scroll-left"
+                      ></button>
+                      <button
+                        class="scroll-btn right"
+                        id="scroll-right"
+                      ></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-history">
+          <div class="container">
+            <div class="wrap">
+              <div class="row">
+                <div class="col-xl-4 col-xs-12 left">
+                  <img src="./assets/Koimucho/history.png" alt="" />
+                </div>
+                <div class="col-xl-8 col-xs-12 right">
+                  <p>
+                    KARAMUCHO lần đầu tiên được ra mắt tại Nhật Bản vào tháng 9,
+                    1984. Tại thời điểm đó, trên thị trường chưa từng xuất hiện
+                    dòng snack cay với hương vị đặc biệt như thế. Chính vì vậy
+                    ngay khi sản phẩm được tung ra đã đón nhận không ngớt những
+                    lời khen và sự ủng hộ nồng nhiệt từ người tiêu dùng. Sản
+                    phẩm lúc đó được biết đến rộng rãi chủ yếu qua việc truyền
+                    miệng, nhưng đã tạo nên một sức nóng bùng nổ chưa từng có từ
+                    trước đến nay. Ngoài ra, những mẫu quảng cáo và cả nhân vật
+                    đại diện của thương hiệu cũng rất được nguời tiêu dùng ưa
+                    thích. Đến nay, KARAMUCHO đã có lịch sử phát triển hơn 30
+                    năm ở Nhật Bản, nhưng cơn sốt về cái tên KARAMUCHO cũng như
+                    những sản phẩm cay ngon đặc trưng của thương hiệu này vẫn
+                    chiếm trọn tình cảm của tất cả người tiêu dùng.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-product" id="product">
+          <div class="container">
+            <div class="product">
+              <div class="product-row">
+                <div class="product-left">
+                  <div class="content">
+                    <img
+                      src="./assets/Koimucho/product-content.png"
+                      alt=""
+                      class="product-title_font"
+                    />
+                    <div class="product-left_img">
+                      <img src="./assets/Koimucho/Artboard 23.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="product-right">
+                  <div class="product-right_content">
+                    <div class="product-tab w-100">
+                      <div class="inner">
+                        <div class="item active" id="item1">
+                          <div class="item-inner">
+                            <img
+                              src="./assets/Koimucho/Bơ mật ong.png"
+                              alt=""
+                            />
+                            <div class="name" style="color: rgb(236, 151, 6)">
+                              Vị bơ mật ong
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="item" id="item2">
+                          <div class="item-inner">
+                            <img
+                              src="./assets/Koimucho/Vị bắp sữa.png"
+                              alt=""
+                            />
+                            <div class="name" style="color: rgb(253, 217, 0)">
+                              Vị sữa bắp
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item" id="item3">
+                          <div class="item-inner">
+                            <img
+                              src="./assets/Koimucho/vị thịt nướng NB.png"
+                              alt=""
+                            />
+                            <div class="name" style="color: rgb(237, 109, 0)">
+                              Vị thịt nướng
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item" id="item4">
+                          <div class="item-inner">
+                            <img src="./assets/Koimucho/vị bơ tỏi.png" alt="" />
+                            <div class="name" style="color: rgb(0, 151, 220)">
+                              Vị bơ tỏi
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-border">
+                      <div
+                        class="product-border_active"
+                        id="border-product"
+                      ></div>
+                    </div>
+                    <div class="product-pannel">
+                      <div class="product-content-wrap">
+                        <div class="table-item">
+                          <div class="title" id="item-title">
+                            SNACK BẮP KOIMUCHO – VỊ BƠ MẬT ONG
+                          </div>
+                          <div class="text">
+                            <p>
+                              Bánh không cay, phù hợp với mọi lứa tuổi và đối
+                              tượng khách hàng.
+                            </p>
+                            <p>
+                              Bánh được làm từ 100% bắp nguyên chất xát nhuyễn,
+                              không phải làm bằng bột bắp nên lát bánh giòn, xốp
+                              , không bị cứng. Bánh có mùi thơm thơm của bơ và
+                              vị ngọt của mật ong.
+                            </p>
+                          </div>
+                          <div class="info">
+                            <div class="table">
+                              <div class="table-head">
+                                <div class="table-title_large">
+                                  Snack bắp KoiMUCHO
+                                </div>
+                                <div class="table-title_large pb-4">
+                                  Vị bơ mật ong (30g) - (60g)
+                                </div>
+                                <div class="table-title_medium row">
+                                  <div class="col-4 text-left">
+                                    <span>
+                                      Giá trị <br />
+                                      dinh dưỡng
+                                    </span>
+                                  </div>
+                                  <div class="col-4 text-center">
+                                    <span>Tính trên 100g</span>
+                                  </div>
+                                  <div class="col-4 text-center">
+                                    <span>
+                                      % Giá trị dinh dưỡng <br />
+                                      hàng ngày
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="table-body">
+                                <div class="table-row row">
+                                  <div
+                                    class="col-4 col-md-4 col-sm-4 text-left"
+                                  >
+                                    <strong>Năng lượng</strong>
+                                  </div>
+                                  <div
+                                    class="col-4 col-md-4 col-sm-4 text-center"
+                                  >
+                                    <span class="item-energy">530,9 kcal</span>
+                                  </div>
+                                  <div
+                                    class="col-4 col-md-4 col-sm-4 text-center"
+                                  ></div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col-4 text-left">
+                                    <strong>Chất đạm</strong>
+                                  </div>
+                                  <div class="col-4 text-center">
+                                    <span class="protein">4,8g</span>
+                                  </div>
+                                  <div class="col-4 text-center">
+                                    <span class="protein-percent">9,7%</span>
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col-4 text-left">
+                                    <strong>Carbohydrat</strong>
+                                  </div>
+                                  <div class="col-4 text-center">
+                                    <span class="item-total-carbohydrate"
+                                      >62,6g</span
+                                    >
+                                  </div>
+                                  <div class="col-4 text-center">
+                                    <span
+                                      class="item-total-carbohydrate-percent"
+                                      >19,3%</span
+                                    >
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col-4 text-left">
+                                    <strong>Đường tổng số</strong>
+                                  </div>
+                                  <div class="col-4 text-center">
+                                    <span class="sugar">4,2g</span>
+                                  </div>
+                                  <div class="col-4 text-center">
+                                    <span></span>
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col-4 text-left">
+                                    <strong>Chất béo </strong>
+                                  </div>
+                                  <div class="col-4 text-center">
+                                    <span class="item-total-fat">29,0g</span>
+                                  </div>
+                                  <div class="col-4 text-center">
+                                    <span class="item-total-fat-percent"
+                                      >51,8%</span
+                                    >
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col-4 text-left">
+                                    <strong>Chất béo bão hòa</strong>
+                                  </div>
+                                  <div class="col-4 text-center">
+                                    <span class="item-saturated-fat"
+                                      >12,5g</span
+                                    >
+                                  </div>
+                                  <div class="col-4 text-center">
+                                    <span class="item-saturated-fat-percent"
+                                      >62,5%</span
+                                    >
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col-4 text-left">
+                                    <strong>Natri </strong>
+                                  </div>
+                                  <div class="col-4 text-center">
+                                    <span class="natri">333,4mg</span>
+                                  </div>
+                                  <div class="col-4 text-center">
+                                    <span class="natri-percent">16,7%</span>
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col left">
+                                    <span
+                                      >*Phần trăm giá trị dinh dưỡng hàng ngày
+                                      dựa trên khẩu phần ăn 2.000 calorie.</span
+                                    >
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col left text-center">
+                                    <strong class="item-title-bot"
+                                      >SNACK BẮP KOIMUCHO – VỊ BƠ MẬT ONG
+                                    </strong>
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col left">
+                                    <strong>Thành phần: </strong>
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col left">
+                                    <span class="ingredient"
+                                      >Bột bắp 59,5 %, dầu thực vật, bột gia vị
+                                      bơ mật ong 8,5 % (đường, đường dextrose,
+                                      maltodextrin, muối, bột kem béo thực vật,
+                                      bột phô mai, bột sữa nguyên kem, bột whey,
+                                      chất điều vị (INS 621, INS 635, INS 951,
+                                      INS 955), chất chống đông vón (INS 551),
+                                      bột chiết xuất nấm men, hương liệu giống
+                                      tự nhiên (hương bơ), bột mật ong (1,5 %),
+                                      đạm thực vật thủy phân, hương liệu tổng
+                                      hợp (hương phô mai bơ), chất điều chỉnh độ
+                                      acid (INS 330), hương liệu tự nhiên (hương
+                                      khói)).
+                                    </span>
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col left">
+                                    <strong class="allergy"
+                                      >&lt;Chú ý&gt;: Sản phẩm không phù hợp cho
+                                      người dị ứng với sữa, gluten, đậu nành.
+                                    </strong>
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col left">
+                                    <strong>Hướng dẫn sử dụng </strong>
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col left">
+                                    <span>Dùng ngay sau khi mở gói. </span>
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col left">
+                                    <strong>Hướng dẫn bảo quản: </strong>
+                                  </div>
+                                </div>
+                                <div class="table-row row">
+                                  <div class="col left">
+                                    <span
+                                      >Bảo quản nơi khô mát, tránh ánh nắng trực
+                                      tiếp và nhiệt độ cao.
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="control">
+                          <div id="back" class="disabled">Quay lại</div>
+                          <div id="next">Tiếp tục</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="contact">
+        <div class="wrap">
+          <div class="row d-flex wrap w-100">
+            <div class="col-lg-8  col-sm-12 left">
+              <img src="assets/main-img/koimucho-bottom.png" alt="" />
+            </div>
+            <div class="col-lg-4 col-sm-12 right">
+              <div class="info">
+                <img src="./assets/Koimucho/contact.png" alt="" />
+                <div class="office">
+                  <div class="title"><strong>Văn Phòng Kinh Doanh</strong></div>
+                  <div>
+                    Tòa nhà Viễn Đông, Số 14 Phan Tôn, P. Đa Kao, quận 1, TPHCM,
+                    Việt Nam
+                  </div>
+                  <div>Điện thoại: (028) 3080 800</div>
+                </div>
+                <div class="office">
+                  <div class="title"><strong>Nhà Máy</strong></div>
+                  <div>
+                    Đường N3-2, Khu công nghiệp Long Đức, Xã Long Đức,
+                    <br />
+                    Huyện Long Thành, Tỉnh Đồng Nai, Việt Nam
+                  </div>
+                  <div>Điện thoại: (0251) 3681368</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="back-top"></div>
+        <span>© Bản quyền thuộc về Koikeya 2024</span>
+      </div>
+    </footer>
+    <div class="section-img">
+      <div class="close-btn">
+        <svg
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 512 512"
+        >
+          <g>
+            <path
+              d="M505.943,6.058c-8.077-8.077-21.172-8.077-29.249,0L6.058,476.693c-8.077,8.077-8.077,21.172,0,29.249	C10.096,509.982,15.39,512,20.683,512c5.293,0,10.586-2.019,14.625-6.059L505.943,35.306	C514.019,27.23,514.019,14.135,505.943,6.058z"
+            ></path>
+          </g>
+          <g>
+            <path
+              d="M505.942,476.694L35.306,6.059c-8.076-8.077-21.172-8.077-29.248,0c-8.077,8.076-8.077,21.171,0,29.248l470.636,470.636 c4.038,4.039,9.332,6.058,14.625,6.058c5.293,0,10.587-2.019,14.624-6.057C514.018,497.866,514.018,484.771,505.942,476.694z"
+            ></path>
+          </g>
+        </svg>
+      </div>
+      <div class="img-left-btn"></div>
+      <div class="img-right-btn"></div>
+      <div class="img-total">
+        <span>1</span>
+        <span>/</span>
+        <span>30</span>
+      </div>
+      <div class="img-content">
+        <div class="img-content_inner">
+          <img src="/" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

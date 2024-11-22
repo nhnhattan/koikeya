@@ -1,0 +1,1040 @@
+.nav {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.nav .nav-wrapper {
+    padding-left: 100px;
+    padding-right: 65px;
+}
+
+.nav .nav-wrapper .nav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .nav-wrapper .nav-inner .nav-logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav .nav-wrapper .nav-inner .nav-btn {
+    position: fixed;
+    right: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    box-shadow: -4px 4px 12px 4px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+}
+
+.nav-inner .nav-btn .btn-inner {
+    width: 44px;
+    height: 44px;
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-inner .nav-btn .btn-inner span:first-child {
+    top: 18px;
+    position: absolute;
+    right: 0;
+    height: 3px;
+    width: 100%;
+    background: #000;
+    transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+    width 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) 0.4s;
+}
+
+.nav-inner .nav-btn .btn-inner span:last-child {
+    top: 26px;
+    width: 60%;
+    position: absolute;
+    right: 0;
+    height: 3px;
+    background: #000;
+    transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+    width 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) 0.4s;
+}
+
+.nav-inner .nav-btn .btn-inner:hover span:last-child {
+    width: 100%;
+}
+
+.nav-inner .nav-btn.open .btn-inner span:first-child {
+    top: 22px;
+    position: absolute;
+    right: 0;
+    height: 3px;
+    width: 100%;
+    background: #000;
+    transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+    width 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) 0.4s;
+    transform: rotate(45deg);
+}
+
+.nav-inner .nav-btn.open .btn-inner span:last-child {
+    transform: rotate(135deg);
+    top: 22px;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    height: 3px;
+    background: #000;
+    transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1),
+    width 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) 0.4s;
+}
+
+.section-top {
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.section-top_bg {
+    background: url("./assets/Karamucho/bg-top.e04599a8.webp") no-repeat top /
+    cover;
+    position: relative;
+    height: 110vh;
+    min-height: 700px;
+}
+
+.section-top__bg__paralax img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+    transition-property: transform;
+    transition-duration: 1000ms;
+    transform-origin: center center;
+    transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+    -webkit-animation: zoom 2s ease-in-out 1s forwards;
+    animation: zoom 2s ease-in-out 1s forwards;
+}
+
+@keyframes zoom {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.section-top_bg_logo {
+    position: relative;
+    text-align: center;
+    padding-top: 3rem;
+    z-index: 3;
+    width: 23%;
+    margin: 0 auto;
+}
+
+.section-top_bg_logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-top_bg_product {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    display: flex;
+}
+
+.section-top_bg_product img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.section-main {
+    perspective: 2000px;
+    background-image: url("./assets/Koimucho/bg-content.0213c521.webp") !important;
+    background: repeat-y top;
+    width: 100%;
+    position: relative;
+    padding-bottom: 16rem;
+    z-index: 2;
+}
+
+.section-paralax {
+    transition-property: transform;
+    transition-duration: 1000ms;
+    transform-origin: center center;
+    transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    width: 100%;
+}
+
+.section-main .main-paralax img {
+    max-width: 100%;
+    height: auto;
+    transition-property: transform;
+    transition-duration: 1000ms;
+    transform-origin: center center;
+    transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    width: 100%;
+}
+
+.section-intro {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    -webkit-transform: translateY(-5rem);
+    transform: translateY(-5rem);
+    z-index: 1;
+}
+
+.section-intro .wrap {
+    padding-left: 10.5%;
+}
+
+.section-intro .wrap .section-intro-inner {
+    position: relative;
+    top: 30px;
+}
+
+.wrap .section-intro-inner .what {
+    background: #fff;
+    padding: 150px 0 190px 40px;
+    overflow: hidden;
+}
+
+.what .row {
+    margin: 0 28px;
+    padding: 0;
+}
+
+.what .row .left {
+    margin: 0 28px;
+    padding: 0;
+}
+
+.what .row .left .title img {
+    max-width: 100%;
+    height: auto;
+}
+
+.what .row .right {
+    margin-left: 28px;
+    width: 70rem;
+    max-width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.section-intro-inner .character {
+    position: relative;
+    padding-left: 100px;
+    padding-bottom: 200px;
+    background: hsla(0, 0%, 100%, 0.3);
+}
+
+.section-intro-inner .character::before {
+    background: url("./assets/Koimucho/bg-snack-intro.b319bf67.png") no-repeat 50% / contain;
+    content: "";
+    position: absolute;
+    left: -166px;
+    bottom: -184px;
+    width: 320px;
+    height: 200px;
+}
+
+.section-intro-inner .character .row {
+    transform: translateY(-7rem);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -44px;
+}
+
+.character .row {
+    transform: translateY(-4rem);
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -28px;
+}
+
+.character .row .left {
+    padding: 0 44px;
+}
+
+.character .row .left .character-avt {
+    padding-top: 5rem;
+}
+
+.character .row .left .character-avt img {
+    max-width: 100%;
+    height: auto;
+}
+
+.character .row .left .character-avt img:last-child {
+    display: none;
+}
+
+.character .row .right {
+    padding: 0 44px;
+}
+
+.character .row .right .content {
+    padding-right: 40px;
+}
+
+.character .row .right .content img {
+    padding-top: 3rem;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.row .right .content p {
+    width: 700px;
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.section-intro-inner .gallery {
+    position: relative;
+    padding-left: 100px;
+    margin-top: -250px;
+    margin-bottom: 150px;
+}
+
+.gallery .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -73px;
+}
+
+.gallery .row .left {
+    position: relative;
+}
+
+.gallery .row .left img {
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery .row .left div {
+    font-size: 16px;
+    color: rgb(125, 122, 122);
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.gallery .row .col-8 {
+    padding: 0;
+    margin-left: 20px;
+}
+
+.gallery .row .right .gallery-slide {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+
+.scroll-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.scroll-btn.left {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: url("./assets/Koimucho/download.png") no-repeat 50% #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    transform: rotate(3.12rad);
+}
+
+.scroll-btn.left.disable {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.scroll-btn.right.disable {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.scroll-btn.right {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: url("./assets/Koimucho/download\ \(1\).png") no-repeat 50% #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.scroll-btn-wrap {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.scroll-content {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 100%;
+    scrollbar-width: none; /* Firefox */
+}
+
+.scroll-content::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+
+.scroll-content_item {
+    cursor: pointer;
+    overflow: hidden;
+    /* width: 40%; */
+    padding-right: 20px;
+}
+
+.scroll-content_item div {
+    position: relative;
+}
+
+.scroll-question {
+    opacity: 1;
+    transition: opacity .4s ease-in-out;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.scroll-item {
+    max-width: 38%;
+    height: auto;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.scroll-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-history {
+    position: relative;
+    margin-bottom: 180px;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.section-history .container {
+    width: 125rem;
+    padding: 0 20px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.section-history .container .wrap .left {
+    padding: 0 40px;
+}
+
+.section-history .container .wrap .left img {
+    max-width: 100%;
+    height: auto;
+    margin: 6% 0;
+}
+
+.section-history .container .wrap .right {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 0 40px;
+    max-width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.section-product .container {
+    width: 1250px;
+    padding: 0 20;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.section-product .container .product {
+    padding-top: 50px;
+    position: relative;
+}
+
+.section-product .container .product .product-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+}
+
+.container .product .product-row .product-left {
+    padding: 0 20px;
+    margin-top: 205px;
+    width: 28%;
+}
+
+.container .product .product-row .product-left .content {
+    position: sticky;
+    top: 0;
+    padding-top: 2rem;
+}
+
+.product-left .content .product-left_img {
+    text-align: center;
+    padding-top: 45px;
+    max-width: 320px;
+}
+
+.product-left .content .product-left_img img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+
+.container .product .product-row .product-right {
+    padding: 0 20px;
+    width: 72%;
+}
+
+.product-row .product-right .product-right_content {
+    padding: 0 30px 70px;
+    background: #f4f4f4;
+}
+
+.product-right .product-right_content .product-tab .inner {
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    transform: translateY(-5rem);
+    margin: 0 -1rem;
+    font-family: Baloo Bhai, cursive !important;
+}
+
+.product-tab .inner .item {
+    text-align: center;
+    color: #928f8f;
+    cursor: pointer;
+    padding: 0 50px;
+}
+
+.product-tab .inner .item:hover {
+    color: #ec3a17;
+}
+
+.product-tab .inner .item .item-inner img {
+    margin-bottom: 15px;
+    max-width: 100%;
+    height: auto;
+}
+
+.product-tab .inner .item .item-inner .name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 20px;
+    min-height: 40px;
+    -webkit-transition: .4s ease-in-out;
+    transition: .4s ease-in-out;
+}
+
+.product-border {
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background: #e1e1e1;
+    -webkit-transform: translateY(-4.5rem);
+    transform: translateY(-4.5rem);
+}
+
+.product-border_active {
+    position: absolute;
+    width: 210px;
+    left: -14px;
+    top: 0;
+    height: 3px;
+    -webkit-transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+    background: rgb(236, 151, 6);
+}
+
+.product-pannel {
+    padding: 20px 50px;
+}
+
+.product-pannel .product-content-wrap .table-item .title {
+    text-transform: uppercase;
+    font-family: Baloo Bhai, cursive !important;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #ec3a17;
+    margin-bottom: 20px;
+    line-height: 3.5rem;
+}
+
+.product-pannel .product-content-wrap .table-item .text {
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+
+.product-pannel .product-content-wrap .table-item .text p {
+    margin-bottom: 5px;
+    position: relative;
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+.product-pannel .product-content-wrap .table-item .text p::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8px;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: #ec3a17;
+}
+
+.product-pannel .product-content-wrap .table-item .info .table {
+    font-size: 16 pxm;
+    border: 2px solid #000;
+    padding: 25px 0 0;
+    border-radius: 5px;
+}
+
+.product-content-wrap .table-item .info .table .table-head {
+    padding: 0 25px 15px;
+    border-bottom: 2px solid #000;
+}
+
+.table-title_large {
+    color: rgb(236, 151, 6);
+    line-height: 32px;
+    font-size: 38px;
+    font-family: Baloo Bhai, cursive;
+    font-display: swap;
+}
+
+.table-title_medium {
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+}
+
+.table-title_medium:after {
+    content: "";
+    background: black;
+    position: absolute;
+    top: -15%;
+    left: 1.5%;
+    height: 3px;
+    width: 97%;
+}
+
+.product-content-wrap .table-item .info .table .table-body .table-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    padding-right: 0;
+    border-bottom: 1px solid #000;
+    font-style: normal;
+    margin-left: 0;
+}
+
+.table-body .table-row .left {
+    text-align: left;
+}
+
+.table-body .table-row .right {
+    text-align: right;
+}
+
+.product-content-wrap .control {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 45px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer {
+    position: relative;
+}
+
+footer::before {
+    content: "";
+    position: absolute;
+    top: -70px;
+    left: 5%;
+    width: 200px;
+    height: 155px;
+    z-index: 9;
+    background: url("./assets/Koimucho/icon-footer-chili.4fa5bdc7.png") no-repeat 50% / contain;
+}
+
+footer .contact {
+    padding: 160px 0 60px;
+    background: url("./assets/Koimucho/bg-contact.f912bc96.jpg") no-repeat 40% / cover;
+    display: flex;
+    justify-content: center;
+}
+
+footer .contact .wrap {
+    max-width: 149rem;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+footer .contact .wrap .row .left img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer .contact .wrap .row .right {
+    padding-top: 50px;
+}
+
+footer .contact .wrap .row .right .info img {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+footer .contact .wrap .row .right .office {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 32px;
+    color: #212529;
+    text-align: left;
+}
+
+footer .copyright {
+    position: relative;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    padding-top: 36px;
+    padding-bottom: 24px;
+    background: #000;
+}
+
+footer .back-top {
+    position: absolute;
+    right: 30px;
+    top: -35px;
+    height: 70px;
+    width: 70px;
+    z-index: 9;
+    cursor: pointer;
+    border-radius: 50%;
+    background: url("./assets/Koimucho/download (2).png") no-repeat 50%;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+
+footer .back-top:hover {
+    background-color: #52c3fa;
+}
+
+.inner .item.active {
+    color: #ec3a17;
+    font-weight: bold;
+}
+
+.inner .item:hover {
+    font-weight: bold;
+}
+
+.navbar-content {
+    display: none;
+    width: 101vw;
+    height: 101vh;
+    overflow: hidden;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #000;
+    z-index: 999;
+}
+
+.btn-navbar-content  img{
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    display: none;
+}
+
+.navbar-content.open {
+    display: block;
+}
+
+.navbar-content_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.navbar-content_wrap .nav-content_item {
+    padding: 5px 0;
+    text-align: center;
+    opacity: 0;
+}
+
+.navbar-content_wrap .nav-content_item a.active {
+    color: black;
+    font-weight: 700;
+}
+
+.navbar-content_wrap .nav-content_item a {
+    position: relative;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #6d6d6d;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.navbar-content_wrap .nav-content_item a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    background: black;
+}
+
+.navbar-content_wrap .nav-content_item:hover a:after {
+    width: 100%;
+}
+
+.nav-content_logo {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    opacity: 0;
+}
+
+.nav-content__logo__karamocho {
+    width: 50%;
+}
+
+.nav-content__logo__karamocho img {
+    max-width: 100%;
+    height: auto;
+    padding: 50px;
+    padding-top: 25px;
+    padding-bottom: 0;
+}
+
+.nav-content__logo__koimocho {
+    width: 50%;
+}
+
+.nav-content__logo__koimocho img {
+    max-width: 100%;
+    height: auto;
+    padding: 50px;
+    padding-top: 25px;
+    padding-bottom: 0;
+}
+
+.nav-content_social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    max-width: 100%;
+    margin-top: 35px;
+    opacity: 0;
+}
+
+.nav-content_social a:first-child img {
+    height: 24px;
+    width: 15px;
+}
+
+.nav-content_social a {
+    padding: 0 45px;
+}
+
+.nav-content_social a:last-child {
+    color: #cacaca;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#back.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#next.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.section-img {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+    display: none;
+}
+
+.section-img.open {
+    display: block;
+    z-index: 9999;
+}
+
+.section-img.open .close-btn svg {
+    fill: #fff;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+
+.section-img.open .close-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    z-index: 99999;
+    cursor: pointer;
+}
+
+.section-img.open .img-left-btn {
+    position: fixed;
+    top: 50%;
+    z-index: 99999;
+    font-size: 3rem;
+    color: #fff;
+    width: 80px;
+    height: 30px;
+    background: url("./assets/Koimucho/download (3).png") no-repeat 50% / contain;
+    cursor: pointer;
+    left: 20px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.section-img.open .img-right-btn {
+    position: fixed;
+    top: 50%;
+    z-index: 99999;
+    font-size: 3rem;
+    color: #fff;
+    width: 80px;
+    height: 30px;
+    background: url("./assets/Koimucho/download (4).png") no-repeat 50% / contain;
+    cursor: pointer;
+    right: 20px;
+    transform: translateY(-50%) rotate(-180deg);
+}
+
+.section-img.open .img-left-btn.disabled {
+    opacity: 0.2;
+    pointer-events: none;
+    text-decoration: none !important;
+}
+
+.section-img.open .img-right-btn.disabled {
+    opacity: 0.2;
+    pointer-events: none;
+    text-decoration: none !important;
+}
+
+.section-img.open .img-total {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.section-img.open .img-content {
+    position: relative;
+    width: 740px;
+    height: 100vh;
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-img.open .img-content .img-content_inner {
+    position: relative;
+    height: 80vh;
+}
+
+.section-img.open .img-content .img-content_inner img {
+    height: 100%;
+    width: auto;
+}

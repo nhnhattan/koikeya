@@ -1,0 +1,267 @@
+.body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.6;
+}
+
+.product-col {
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.product-col:nth-child(2) {
+    position: relative;
+
+}
+
+.karamucho-bg {
+    background: #ff5100;
+    background: radial-gradient(circle, #ff0 0, #ff5100 100%);
+    height: 100vh;
+}
+
+.banners-top {
+    width: 100%;
+    top: 1.1rem;
+}
+
+.banners {
+    height: 3.5rem;
+    padding: 0 1rem;
+    padding-left: 10px;
+    -webkit-transition: 1.4s ease-in-out 1s;
+    transition: 1.4s ease-in-out 1s;
+    z-index: 99;
+}
+
+.product-package {
+    position: absolute;
+    padding-bottom: 18%;
+    margin: 0 auto;
+    padding-right: 22rem;
+    width: 53%;
+    z-index: 2;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+.product-package-2 {
+    position: absolute;
+    padding-bottom: 18%;
+    margin: 0 auto;
+    padding-right: 22rem;
+    width: 53%;
+    z-index: 2;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+.product-package-2 .package_snack {
+    width: 332px;
+    height: 338px;
+    position: relative;
+}
+
+.product-package .package_snack {
+    width: 332px;
+    height: 338px;
+    position: relative;
+}
+
+.snack-bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 2s ease
+}
+
+.snack_left-fly {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    z-index: 2;
+    transition: opacity 0.2s ease-in-out 0.2s, -webkit-transform 0.2s ease-in-out;
+    transition: bottom 0.2s ease-in-out, opacity 0.2s ease-in-out 0.2s;
+    transition: bottom 0.2s ease, transform 0.2s ease;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.chili-left_fade {
+    position: absolute;
+    top: 6%;
+    left: 0;
+    width: 102%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.chili-left_fade:hover {
+    -webkit-animation: chilifade 1s 1s forwards;
+    animation: chilifade 1s 1s forwards;
+    -webkit-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+}
+
+.snack-fall {
+    width: 100%;
+    position: absolute;
+    bottom: 12%;
+    z-index: 3;
+    transform: translateY(-500%);
+    transition: transform 1s ease;
+}
+
+
+.img-fire {
+    position: absolute;
+    bottom: -30%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 4;
+    width: 100%;
+    transition: bottom 1s ease;
+}
+
+
+.main.row {
+    position: relative;
+}
+
+.logo-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-20%, -20%);
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-wrapper a:first-child img {
+    margin-bottom: 0.05rem;
+}
+
+.logo-wrapper a img {
+    width: 45%;
+}
+
+/*.logo-img {*/
+/*    position: absolute;*/
+/*    z-index: 10;*/
+/*    top: 15%;*/
+/*    left: 55%;*/
+/*    transform: translate(-50%, -50%);*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.logo-link {*/
+/*    position: absolute;*/
+/*    z-index: 10;*/
+/*    top: 25%;*/
+/*    left: 55%;*/
+/*    transform: translate(-50%, -50%);*/
+/*    cursor: pointer;*/
+/*}*/
+
+.koimucho-bg {
+    background: #007fff;
+    background: radial-gradient(circle, #64f9ff 0, #007fff 100%);
+    height: 100vh;
+}
+
+.snack_mid-fly {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    z-index: 2;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.popcorn-fade {
+    position: absolute;
+    top: 4%;
+    left: -5px;
+    width: 102%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.popcorn-fade:hover {
+    -webkit-animation: chilifade 0.5s 0.5s forwards;
+    animation: chilifade 0.5s 0.5s forwards;
+    -webkit-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+}
+
+.gokochi-bg {
+    background: #d8ffb3;
+    background: radial-gradient(circle, #ffffff 0, #89d8fb 100%);
+    height: 100vh;
+}
+
+.snack_right-fly {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    z-index: 2;
+    left: 10%;
+    transition: bottom 0.2s ease-in-out, opacity 0.2s ease-in-out 0.2s;
+    transition: bottom 0.2s ease, transform 0.2s ease;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.product-package-3 {
+    position: absolute;
+    padding-bottom: 18%;
+    margin: 0 auto;
+    padding-right: 21rem;
+    width: 50%;
+    z-index: 2;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+.product-package-3 .package_snack {
+    width: 332px;
+    height: 338px;
+    position: relative;
+}
+
+.potato-fade {
+    position: absolute;
+    top: 4%;
+    left: -5px;
+    width: 102%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+@keyframes chilifade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+

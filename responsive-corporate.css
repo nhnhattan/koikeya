@@ -1,0 +1,366 @@
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1024px) {
+    .corporate-right {
+        width: 100%;
+    }
+
+    .corporate-right .d-flex.flex-column {
+        height: auto !important;
+    }
+
+    .navbar-wrap {
+        position: fixed;
+    }
+
+
+    .navbar-inner {
+        display: flex;
+        justify-content: space-between !important;
+    }
+
+    .nav-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-logo img {
+        max-width: 100% !important;
+        height: 50px !important;
+    }
+
+    .corporate-left {
+        max-width: 100vw;
+        overflow: hidden;
+    }
+
+    .banner {
+        padding-top: 7rem;
+        width: 100%;
+        max-height: calc(100vh - 84px);
+    }
+
+    .banner-bottom .content {
+        max-width: 85%;
+    }
+
+    .navbar-scroll {
+        display: none;
+    }
+
+    .section-brand-message {
+        padding: 20px 20px 88px 20px !important;
+    }
+
+    .section-brand .mission-container {
+        padding: 90px 50px 70px;
+    }
+
+    .container .company-info_wrap {
+        width: 100%;
+        left: -15px;
+        flex-direction: column;
+    }
+
+    .company-img img {
+        max-width: 100%;
+        height: auto;
+        width: 100% !important;
+    }
+
+    .company-content {
+        padding: 45px 20px 35px
+    }
+
+    .company-content img {
+        margin-top: 0;
+    }
+
+    .company-content ul li p:first-child {
+        flex: 0 0 200px;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    .company-content img {
+        max-width: 100% !important;
+        width: 250px;
+    }
+
+    .company-content ul {
+        line-height: 3rem;
+        color: #000;
+        font-size: 2rem;
+    }
+
+    .section-other {
+        width: 100vw;
+    }
+
+    .section-other__content h2 img {
+        width: 100%;
+    }
+
+    .section-other__content ul li {
+        flex-direction: column;
+    }
+
+    .section-contact div {
+        padding-right: 0;
+    }
+
+    .section-other__content ul li div {
+        flex: none;
+    }
+
+    .contact .container img {
+        max-width: 100%;
+        padding-left: 20px;
+        margin-bottom: 0;
+    }
+
+    .contact-wrap .contact-content .section-contact {
+        padding-top: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .section-contact__content {
+        padding: 60px 15px;
+    }
+
+    .contact-wrap .contact-content .section-contact:last-child {
+        margin-top: 70px;
+    }
+
+    .contact-content .section-contact:last-child img {
+        max-width: 90%;
+        padding-left: 0;
+        position: relative;
+        left: -2rem;
+    }
+
+    .section-contact .reverse {
+        top: 0;
+        left: 1rem;
+        width: 50%;
+    }
+
+    .section-contact .reverse, .section-contact div {
+        font-size: 19px;
+    }
+
+    .contact-img {
+        max-height: none;
+        margin-bottom: 56px !important;
+    }
+
+    .btn-navbar-content  img {
+        display: block;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .corporate-right {
+        width: 100%;
+    }
+
+    .corporate-right .d-flex.flex-column {
+        height: auto !important;
+    }
+
+    .navbar-wrap {
+        position: fixed;
+
+    }
+
+
+    .navbar-inner {
+        display: flex;
+        justify-content: space-between !important;
+    }
+
+    .nav-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-logo img {
+        max-width: 100% !important;
+        height: 50px !important;
+    }
+
+    .corporate-left {
+        max-width: 100vw;
+        overflow: hidden;
+    }
+
+    .banner {
+        padding-top: 5.5rem;
+        height: 100vh !important;
+        width: 100%;
+        max-height: calc(100vh - 84px);
+    }
+
+    .banner-bottom .content {
+        max-width: 85%;
+    }
+
+    .navbar-scroll {
+        display: none;
+    }
+
+    .section-brand {
+        display: block;
+        padding-bottom: 0;
+    }
+
+    .section-brand-message::after {
+        right: 0;
+    }
+
+    .section-brand-message {
+        padding: 20px 20px 88px 20px !important;
+    }
+
+    .section-brand::after {
+        background: url(https://koike-ya.vn/img/brand-message-element.042f956b.webp) no-repeat top / contain;
+        width: 300px;
+        top: 24%;
+        left: 110%;
+    }
+
+    .section-brand .mission-container {
+        padding: 90px 30px 70px;
+    }
+
+    .section-brand .mission-container .content-mission div {
+        font-size: 18px;
+    }
+
+    .section-brand .mission-container .content-mission img, .section-brand .mission-container .content-vision img {
+        width: 40% !important;
+    }
+
+    .container .company-info_wrap {
+        width: 100%;
+        left: -15px;
+        flex-direction: column;
+    }
+
+    .company-img img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .company-content {
+        padding: 45px 20px 35px
+    }
+
+    .company-content img {
+        margin-top: 0;
+    }
+
+    .company-content ul li p:first-child {
+        flex: 0 0 120px;
+    }
+
+    .section-other {
+        width: 100vw;
+    }
+
+    .section-other__content h2 img {
+        width: 100%;
+    }
+
+    .section-other__content ul li {
+        flex-direction: column;
+    }
+
+    .section-contact div {
+        padding-right: 0;
+    }
+
+    .section-other__content ul li div {
+        flex: none;
+    }
+
+    .contact-wrap .contact-content {
+        padding: 55px 30px 0;
+    }
+
+
+    .contact .container img {
+        max-height: none;
+        max-width: 100%;
+        margin-bottom: 0;
+    }
+
+    .contact-wrap .contact-content .section-contact {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-contact:first-child div:first-child {
+        text-align: center;
+    }
+
+    .contact-wrap .contact-content .section-contact:last-child {
+        flex-direction: column;
+    }
+
+    .section-contact .reverse {
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-right: 0;
+
+    }
+
+    footer {
+        display: none
+    }
+
+    .nav-content_logo {
+        display: flex;
+    }
+
+    .nav-content_social a {
+        padding: 0 35px
+    }
+
+    .nav-content__logo__karamocho img {
+        padding: 25px;
+
+    }
+
+    .nav-content__logo__koimocho img {
+        padding: 25px;
+    }
+
+    .logo-bottom img{
+        width: 100%;
+    }
+
+    .contact-content .section-contact:nth-child(1) div {
+        width: auto !important;
+    }
+
+    .btn-navbar-content  img {
+        display: block;
+    }
+}
+
+
+

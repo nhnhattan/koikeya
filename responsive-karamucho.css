@@ -1,0 +1,364 @@
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .section-top_bg {
+        height: auto;
+    }
+    .product-border_active {
+        width: 25%;
+        left: 0;
+    }
+
+    .container .product .product-row .product-left {
+        display: none;
+    }
+
+    .container .product .product-row .product-right {
+        width: 100%;
+    }
+
+    footer .contact {
+        padding: 55px 0 35px 0;
+    }
+
+    footer .contact .wrap {
+        padding: 0;
+    }
+
+    footer .contact .wrap .row .right .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer .contact .wrap .row .right .info .office {
+        text-align: center;
+    }
+
+    .character .row .right .content img {
+        padding-top: 5rem;
+        margin-bottom: 2rem;
+        width: 110%;
+    }
+
+    .scroll-content {
+        position: relative;
+        left: -3.5rem;
+        width: 90%;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .btn-navbar-content img {
+        display: block;
+    }
+
+    .nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #fff;
+        box-shadow: 0 3px 15px rgba(0, 0, 0, .2);
+    }
+
+    .nav-wrapper {
+        padding: 0 14px !important;
+
+    }
+
+    .nav-inner {
+        height: 70px;
+    }
+
+    .nav-logo {
+        width: 75px;
+    }
+
+    .nav-btn {
+        right: 14px !important;
+        background: none !important;
+        box-shadow: none !important;
+    }
+
+    .section-top_bg {
+        min-height: 500px;
+        max-height: 760px;
+    }
+
+    .section-top_bg_logo {
+        padding: 8.5rem 3.5rem 0;
+        width: 100%;
+    }
+
+    .section-top_bg_product {
+        height: 60%;
+        background-size: 100vw auto;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-image: url("./assets/Karamucho/Topbanner phone.png");
+        left: -2%;
+    }
+
+    .section-top_bg_product img {
+        margin: 0;
+        display: none;
+    }
+
+    .section-intro .wrap {
+        padding-left: 6.5%;
+    }
+
+    .section-intro .wrap .section-intro-inner {
+        top: 6rem;
+    }
+
+    .wrap .section-intro-inner .what {
+        padding: 0;
+        padding-left: 25px;
+        padding-top: 40px;
+        padding-bottom: 85px;
+    }
+
+    .what .row {
+        margin: 0 -28px;
+        flex-direction: column;
+    }
+
+    .what .row .left {
+        margin-bottom: 20px;
+        width: 265px;
+    }
+
+    .what .row .left .title {
+        margin-bottom: 20px;
+        width: 260px;
+    }
+
+    .what .row .right {
+        width: 100vw !important;
+        max-width: 85%;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .section-intro-inner .character {
+        padding: 0 28px;
+    }
+
+    .character .row .left .character-avt {
+        max-width: 44%;
+    }
+
+
+    .character .row .right .content img {
+        display: none;
+    }
+
+    .character-content {
+        display: flex;
+        position: relative;
+        left: -3.5rem;
+        top: -2rem;
+    }
+
+    .character .row .left .character-avt img:first-child {
+        margin-right: 2rem;
+    }
+
+    .character .row .left .character-avt img:last-child {
+        display: block;
+        max-width: 140%;
+        height: auto;
+    }
+
+    .character .row .right .content, .row .right .content p {
+        width: 70rem;
+        max-width: 100%;
+        font-size: 1rem;
+        line-height: 2rem;
+        padding-right: 0;
+    }
+
+    .section-intro-inner .character {
+        padding-bottom: 15rem;
+    }
+
+    .section-intro-inner .gallery {
+        margin-top: -24rem;
+        padding-left: 2rem;
+    }
+
+    .scroll-container {
+        left: -4rem;
+    }
+
+    .scroll-item {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .scroll-btn-wrap {
+        margin-left: 17rem;
+    }
+
+    .scroll-content {
+        position: relative;
+        left: 3.5rem;
+        width: 78%;
+    }
+
+    .section-history .container {
+        padding: 0 -0.5rem 0 4rem;
+        margin: 0;
+        max-width: 100%;
+    }
+
+
+    .section-history {
+        width: 100%;
+        left: 0;
+        top: -8rem;
+        margin-bottom: 0;
+    }
+
+    .section-history .container .wrap .right {
+        max-width: 100%;
+        font-size: 1rem;
+        line-height: 2rem;
+        color: #fff;
+    }
+
+    .product-row .product-right .product-right_content {
+        padding: 0 1.4rem 2.5rem;
+    }
+
+    .section-product .container .product .product-row {
+        margin: 0;
+    }
+
+    .section-product .container {
+        width: 110rem;
+        padding: 0;
+    }
+
+    .section-product .container .product {
+        padding-top: 5rem;
+        position: relative;
+    }
+
+    .container .product .product-row .product-left {
+        width: 100%;
+        padding: 0 4rem;
+        margin-bottom: 6rem;
+        margin-top: 0;
+    }
+
+    .product-left .content .product-left_img {
+        display: none;
+    }
+
+    .container .product .product-row .product-right {
+        width: 100%;
+        padding: 0;
+    }
+
+    .product-tab .inner .item {
+        width: 15%;
+        padding: 0;
+    }
+
+    .product-tab .inner .item .item-inner .name {
+        display: none;
+    }
+
+    .product-right .product-right_content .product-tab .inner {
+        justify-content: space-between;
+        transform: translateY(-1rem);
+    }
+
+    .product-border {
+        transform: translateY(-1rem);
+    }
+
+    .product-border_active {
+        width: 25%;
+        left: -5.4%;
+    }
+
+    .product-pannel {
+        padding: 0;
+    }
+
+    .section-main {
+        padding-bottom: 0;
+    }
+
+    footer::before {
+        display: none;
+    }
+
+    .product-pannel .product-content-wrap .table-item .title {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+        font-weight: 700;
+    }
+
+    footer .contact {
+        padding: 55px 0 35px 0;
+    }
+
+    footer .contact .wrap {
+        padding: 0;
+    }
+
+    footer .contact .wrap .row .right .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer .contact .wrap .row .right .info .office {
+        text-align: center;
+    }
+
+    .container .product .product-row .product-left {
+        padding: 0 2.5rem;
+    }
+
+    .product-content-wrap .table-item .info .table .table-head {
+        padding: 0 12px 20px;
+    }
+
+    .table-title_large {
+        font-size: 1.4rem
+    }
+
+    .product-content-wrap .table-item .info .table .table-body .table-row {
+        padding: .3rem 0.1rem .2rem;
+    }
+
+    .nav-content_social a {
+        padding: 0 35px
+    }
+
+    .nav-content__logo__karamocho img {
+        padding: 25px;
+
+    }
+
+    .nav-content__logo__koimocho img {
+        padding: 25px;
+    }
+
+    
+
+}
+
