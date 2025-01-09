@@ -1,7 +1,7 @@
 const item = [
     {
         id: 1,
-        img: "./assets/Karamucho/Lớn/Artboard18.png",
+        img: "./assets/Karamucho/Large/Artboard18.png",
         firstName: "",
         lastName: "",
         fullName: "SNACK KHOAI TÂY KARAMUCHO STRONG LÁT DÀY - VỊ CAY ĐẶC BIỆT",
@@ -28,7 +28,7 @@ const item = [
     },
     {
         id: 2,
-        img: "./assets/Karamucho/Lớn/Artboard16.png",
+        img: "./assets/Karamucho/Large/Artboard16.png",
         firstName: "",
         lastName: "",
         fullName: "SNACK KHOAI TÂY KARAMUCHO STRONG LÁT DÀY - VỊ SỐT CAY HOÀNG GIA",
@@ -56,7 +56,7 @@ const item = [
     },
     {
         id: 3,
-        img: "./assets/Karamucho/Lớn/Artboard13.png",
+        img: "./assets/Karamucho/Large/Artboard13.png",
         firstName: "",
         lastName: "",
         fullName: "SNACK KHOAI TÂY KARAMUCHO - VỊ CAY ĐẶC BIỆT",
@@ -83,7 +83,7 @@ const item = [
     },
     {
         id: 4,
-        img: "./assets/Karamucho/Lớn/Artboard21.png",
+        img: "./assets/Karamucho/Large/Artboard21.png",
         firstName: "Snack khoai tây Karamucho",
         lastName: "Vị rong biển cay",
         fullName: "SNACK KHOAI TÂY KARAMUCHO - VỊ RONG BIỂN CAY",
@@ -110,7 +110,7 @@ const item = [
     },
     {
         id: 5,
-        img: "./assets/Karamucho/Lớn/Artboard15.png",
+        img: "./assets/Karamucho/Large/Artboard15.png",
         firstName: "",
         lastName: "",
         fullName: "SNACK KHOAI TÂY KARAMUCHO - VỊ SỐT CAY NGỌT HÀN QUỐC",
@@ -137,7 +137,7 @@ const item = [
     },
     {
         id: 6,
-        img: "./assets/Karamucho/Lớn/Artboard19.png",
+        img: "./assets/Karamucho/Large/Artboard19.png",
         firstName: "",
         lastName: "",
         fullName: "SNACK BẮP KARAMUCHO - VỊ KHÔ BÒ",
@@ -164,7 +164,7 @@ const item = [
     },
     {
         id: 7,
-        img: "./assets/Karamucho/Lớn/Artboard20.png",
+        img: "./assets/Karamucho/Large/Artboard20.png",
         firstName: "",
         lastName: "",
         fullName: "SNACK BẮP KARAMUCHO - VỊ PHÔ MAI CAY",
@@ -191,7 +191,7 @@ const item = [
     },
     {
         id: 8,
-        img: "./assets/Karamucho/Lớn/Artboard14.png",
+        img: "./assets/Karamucho/Large/Artboard14.png",
         firstName: "",
         lastName: "",
         fullName: "SNACK BẮP KARAMUCHO - VỊ CAY ĐẶC BIỆT",
