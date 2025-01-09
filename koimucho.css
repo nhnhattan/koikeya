@@ -166,6 +166,7 @@
     position: relative;
     padding-bottom: 16rem;
     z-index: 2;
+    background-size: cover;
 }
 
 .section-paralax {

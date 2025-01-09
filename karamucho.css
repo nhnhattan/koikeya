@@ -99,7 +99,7 @@
 }
 
 .section-top_bg {
-    background: url(https://koike-ya.vn/img/bg-top.e80af751.jpg) no-repeat top /
+    background: url("./assets/Karamucho/bg-top.jpg") no-repeat top /
     cover;
     position: relative;
     height: 110vh;
@@ -159,12 +159,13 @@
 
 .section-main {
     perspective: 2000px;
-    background-image: url("https://koike-ya.vn/img/bg-content.d0c2d6c5.webp") !important;
+    background-image: url("./assets/Karamucho/bg-content.jpg") !important;
     background: repeat-y top;
     width: 100%;
     position: relative;
     padding-bottom: 16rem;
     z-index: 2;
+    background-size: cover;
 }
 
 .section-main .main-paralax img {
@@ -237,7 +238,7 @@
 }
 
 .section-intro-inner .character::before {
-    background: url(https://koike-ya.vn/img/bg-snack-intro.f569ab3b.png) no-repeat 50% / contain;
+    background: url(./assets/Karamucho/bg-snack-intro.png) no-repeat 50% / contain;
     content: "";
     position: absolute;
     left: -106px;
@@ -696,7 +697,7 @@ footer::before {
     width: 200px;
     height: 155px;
     z-index: 9;
-    background: url(https://koike-ya.vn/img/icon-footer-chili.6982a4d5.png) no-repeat 50% / contain;
+    background: url(./assets/Karamucho/icon-footer-chili.png) no-repeat 50% / contain;
 }
 
 footer .contact {
