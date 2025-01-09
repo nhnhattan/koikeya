@@ -252,7 +252,7 @@ $(document).ready(function () {
       $(".section-brand-message p").html`
       ● KOIKEYA là nhà sản xuất đồ ăn nhẹ hàng đầu của Nhật Bản, chuyên
               cung cấp các sản phẩm đồ ăn nhẹ và thực phẩm tốt cho sức khỏe với
-              hơn 74 năm không ngừng phát triển.
+              hơn 72 năm không ngừng phát triển.
               <br />
               ● Năm 2016, Koikeya thành lập chi nhánh và nhà máy sản xuất tại
               Việt Nam.
